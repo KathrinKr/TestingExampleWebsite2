@@ -1,0 +1,34 @@
+/*class for all small headers*/
+.headerSmall {
+  font-size: small;
+}
+
+/*class for all links*/
+.link {
+  color: blue;
+  text-decoration: none;
+}
+
+/*resizing picture of the cat*/
+.catPicture {
+  width: 400px;
+  height: 309px;
+  object-fit: cover;
+}
+
+/*Text that shouldn't be in main focus*/
+.unimportantInfo {
+  color: #b9c1cb;
+}
+
+/*Table styling*/
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #ccc;
+}
+/*Table cell styling*/
+.cell {
+  border: 1px solid #ccc;
+  text-align: center;
+}
